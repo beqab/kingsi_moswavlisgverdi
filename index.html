@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Olimpiada KINGS.LT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="https://kings.lt/new/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="https://kings.lt/new/css/screen.css">
+<link rel="stylesheet" type="text/css" href="https://kings.lt/new/style.css">
+<link rel="stylesheet" type="text/css" href="https://kings.lt/new/mystyle.css">
+<link rel="stylesheet" type="text/css" href="https://kings.lt/new/css/font-awesome.css">
+<link rel="stylesheet" href="https://kings.lt/library/sweetalert/css/sweetalert.css">
+
+
+  <link rel="manifest" href="/manifest.json" />
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+ 
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1852865014976490&ev=PageView&noscript=1"
+    /></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->    <meta property="fb:app_id" content="1307817295965193" />
+    <meta property="og:image" content="https://kings.lt/new/images/share_fb.png" />
+    <meta property="og:description" content="Anglų kalbos ir matematikos olimpiada 2-12 kl. mokiniams" />
+    <meta property="og:url" content="http://kings.lt" />
+    <meta property="og:title" content="Tarptautinė Kings olimpiada " />
+
+
+
+
+</head>
+<div id="fb-root"></div>
+
+<body>
+<header>
+    <div class="top_header_olimo container-fluid">
+    <div class="row justify-content-md-end justify-content-xs-center">
+        <div class="col-lg-6  col-md-12 text-center text-sm-right">
+
+                            <a href="https://kings.lt/prisijungti" class="log-in">Prisijungti</a>
+                                    </div>
+    </div>
+</div>
+<div class="">
+    <nav class="register_hedaer testireba olipiada navbar navbar-expand-md  navbar-dark">
+        <div class="navbar-brand header_line d-md-inline-block">
+            <div class="logo">
+                <h1>
+                    <a href="https://kings.lt"><img src="https://kings.lt/new/images/logo.png"></a>
+                </h1>
+            </div>
+
+        </div>
+
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                        <a class="nav-link" href="https://kings.lt/page/apie-mus">Apie mus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/naujienos">Naujienos</a>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="https://kings.lt/page/olimpiada">Olimpiada</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://kings.lt/page/duk">D.U.K</a>
+                    </li>
+
+                                </ul>
+            <!-- Navbar text-->
+                <span class="navbar-text ">
+                                                              </span>
+            </div>
+
+    </nav>
+    <style type="text/css">
+          .new_eng{
+               transform: translate(-50%, -50%);
+               width: 85vw;
+               height: 20vw;
+               left: 50%;
+               background: url(images/newroad.png);
+               background-size: 100% 100%;
+               background-position: center;
+               position: absolute;
+               top: 36%;
+               background-repeat: no-repeat;
+            }
+
+            .new_mth{
+              transform: translate(-50%, -50%);
+              width: 85vw;
+              height: 20vw;
+              left: 50%;
+              background: url(images/newroad.png);
+              background-size: 100% 100%;
+              background-position: center;
+              position: absolute;
+              top: 76%;
+              background-repeat: no-repeat;
+            }
+            .nnnew{
+                height: 118vh;
+                position: relative;
+                margin: auto;
+            }
+
+            .line_title{
+                    position: absolute;
+    font-size: 3vw;
+    transform: translate(50%, 50%) rotateZ(-3deg);
+    background: url(images/road_title.png);
+    background-size: 100% 100%;
+    background-position: center;
+    bottom: 26%;
+    height: 11vw;
+    width: 30vw;
+    left: -14%;            }
+
+            .line_title { 
+   color: white; 
+   font: bold  Helvetica, Arial, Sans-Serif;
+
+}
+.ball_n:hover{
+     transform: translate(-50%, -50%) scale(1.1, 1.1 );
+}
+.ball_n{
+       position: absolute;
+       transform: translate(-50%,-50%);
+       background: url(images/blueball.png);
+       display: block;
+       background-position: center;
+       background-size: cover;
+       height: 5vw;
+       width: 4vw;
+       z-index: 3;
+       cursor: pointer;
+       transition: 0.3s;
+}
+.ball1{
+     left: 4%;
+     top: 73%;
+}
+.ball2{left: 8%;top: 69%;}
+.ball3{
+     left: 12%;
+     top: 65%;
+}
+.ball4{
+     left: 16%;
+     top: 62%;
+}
+.ball5{
+     left: 20%;
+     top: 58%;
+}
+.ball6{
+     left: 24%;
+     top: 54%;
+}
+.ball7{
+     left: 28%;
+     top: 50%;
+}
+.ball8{
+     left: 32%;
+     top: 46%;
+}
+
+.n_green{
+     background: url(images/greenball.png) !important;
+      background-position: center !important;
+    background-size: cover !important;
+}
+.n_point{
+        position: absolute;
+    transform: translate(-50%,-50%);
+    background: url(images/pint_n.png);
+    display: block;
+    background-position: center;
+    background-size: cover;
+    height: 5vw;
+    width: 3.1vw;
+    z-index: 3;
+    top: 11%;
+    cursor: pointer;
+    left: 43%;
+    transition: 0.3s;
+}
+.n_point:hover{
+   transform: translate(-50%, -50%) scale(1.1, 1.1 );
+    }
+    .star_n{
+        position: absolute;transform: translate(-50%,-50%);
+        background: url(images/star_n.png);
+        display: block;background-position: center;
+        background-size: cover;height: 5vw;
+        width: 3.9vw;
+        z-index: 3;
+        top: 15%;
+        cursor: pointer;
+        left: 61.5%;
+        transition: 0.3s;
+    }
+     .star_n:hover{
+     transform: translate(-50%, -50%) /*rotateY(-180deg ) */scale(1.1, 1.1 );
+
+     }
+     .n_point.point2{
+        left: 79%;
+        top: 21%;
+     }
+     .tower_n{
+           position: absolute;
+           transform: translate(-50%,-50%);
+           background: url(images/tower_n.png);
+           display: block;
+           background-position: center;
+           background-size: cover;
+           height: 12vw;
+           width: 6.9vw;
+           z-index: 3;
+           top: -5%;
+           cursor: pointer;
+           left: 92.5%;
+           transition: 0.3s;
+     }
+     .text_box_n{
+          position: absolute;
+          border: 2px solid #050987;
+          border-radius: 10px;
+          padding: 0.5vw 1.1vw;
+          display: block;
+          color: #000;
+          display: flex;
+          transform: translate(-50%,-50%);
+          flex-direction: column;
+          left: 43%;
+          top: -17%;
+          text-align: center;
+          
+     }
+     .aannim_n{
+          animation: enrgvrd 5s infinite;
+     }
+     .text_box_n_title{
+        font-size: calc(5px + 0.6vw);
+     }
+      .text_box_n_date{
+        font-size:calc(5px + 0.7vw);
+        font-weight: bold;
+     }
+     .text_box_n2{
+             left: 78.5%;
+             top: -7%;
+     }
+     .resultat_n{
+            position: absolute;
+    left: 57%;
+    top: -9%;
+    color: #000;
+    background: #9ED2FF;
+    font-size: calc(5px + 0.8vw);
+    padding: 0.2vw 1.1vw;
+    border: 1px solid #707070;
+    border-radius: 50px;
+     }
+     .resultat_n{
+       
+
+     }
+     .opasyti05{
+        overflow: 0.5;
+     }
+
+     .line_title2{
+        
+         background: url(images/anglukatu.png);
+    background-size: 100% 100%;
+    background-position: center;
+     }
+/*.line_title:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+  
+}*/
+
+@keyframes enrgvrd {
+    0% {
+        transform: translate(-50%, -50%)  skewX(-10deg);
+    }
+
+    50% {
+        transform: translate(-50%, -50%)  skewX(10deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%)  skewX(-10deg);
+    }
+}
+    </style>
+</div></header>
+
+<div class=" nnnew">
+ <div class="new_eng">
+
+    <a href="" class="text_box_n aannim_n">
+         <span class="text_box_n_title">Kvalifikacininio turo pradžia</span>
+         <span class="text_box_n_date">2018.03.12 - 2018.03.30</span>
+    </a>
+      <a href="" class="text_box_n text_box_n2">
+         <span class="text_box_n_title">Kvalifikacininio turo pradžia</span>
+         <span class="text_box_n_date">2018.03.12 - 2018.03.30</span>
+    </a>
+    <a href="" class="resultat_n">Rezultatai</a>
+
+
+
+
+
+    <a href="" class="ball_n ball1 n_green">
+        
+    </a>
+    <a href="" class="ball_n ball2">
+        
+    </a>
+     <a href="" class="ball_n ball3">
+        
+    </a>
+     <a href="" class="ball_n ball4">
+        
+    </a>
+     <a href="" class="ball_n ball5">
+        
+    </a>
+     <a href="" class="ball_n ball6">
+        
+    </a>
+     <a href="" class="ball_n ball7">
+        
+    </a>
+     <a href="" class="ball_n ball8">
+        
+    </a>
+    <a href="" class="n_point">
+
+    </a>
+      <a href="" class="star_n">
+
+    </a>
+    <a href="" class="n_point point2">
+
+    </a>
+    <a href="" class="tower_n">
+        
+    </a>
+
+
+
+
+
+
+
+     <div class="line_title">
+       
+     </div>
+ </div>
+  <div class="new_mth">
+
+       <a href="" class="text_box_n">
+         <span class="text_box_n_title">Kvalifikacininio turo pradžia</span>
+         <span class="text_box_n_date">2018.03.12 - 2018.03.30</span>
+    </a>
+      <a href="" class="text_box_n text_box_n2">
+         <span class="text_box_n_title">Kvalifikacininio turo pradžia</span>
+         <span class="text_box_n_date">2018.03.12 - 2018.03.30</span>
+    </a>
+    <a href="" class="resultat_n">Rezultatai</a>
+
+
+
+
+     
+      <a href="" class="ball_n ball1 n_green">
+        
+    </a>
+    <a href="" class="ball_n ball2">
+        
+    </a>
+     <a href="" class="ball_n ball3">
+        
+    </a>
+     <a href="" class="ball_n ball4">
+        
+    </a>
+     <a href="" class="ball_n ball5">
+        
+    </a>
+     <a href="" class="ball_n ball6">
+        
+    </a>
+     <a href="" class="ball_n ball7">
+        
+    </a>
+     <a href="" class="ball_n ball8">
+        
+    </a>
+    <a href="" class="n_point">
+
+    </a>
+      <a href="" class="star_n">
+
+    </a>
+    <a href="" class="n_point point2">
+
+    </a>
+   <!--  <a href="" class="tower_n">
+        
+    </a>
+ -->
+
+
+
+
+
+      <div class="line_title line_title2">
+       
+     </div>
+ </div>
+
+ </div>
+
+
+
+
+
+
+<footer class="d-flex justify-content-end">
+    <ul class="mr-auto p-1 list-unstyled">
+    <li><a rel="external" href="https://kings.lt/page/taisykl%C4%97s" class="ui-link">Taisyklės</a></li>
+    <li><a rel="external" href="https://kings.lt/page/partneriai" class="ui-link">Partneriai</a></li>
+    <li><a rel="external" href="https://kings.lt/page/contact" class="ui-link">Kontaktai</a></li>
+</ul>
+<span class="p-2 ">
+        <ul class="social list-unstyled mb-auto d-flex justify-content-end align-items-center">
+                                            <li>
+                    <a href="https://www.facebook.com/KingsLietuva/" target="_blank" class="list-inline-item"><img src="https://kings.lt/new/images/facebook.png"></a>
+                </li>
+                                            <li>
+                    <a href="https://www.instagram.com/kings_liutukas/" target="_blank" class="list-inline-item"><img src="https://kings.lt/new/images/instagram.png"></a>
+                </li>
+                                            <li>
+                    <a href="https://www.youtube.com/channel/UCTiEDyzvWts_J84gDZnZNbA" target="_blank" class="list-inline-item"><img src="https://kings.lt/new/images/youtube.png"></a>
+                </li>
+                    </ul>
+     ⓒ Kings 2018. Visos teisės yra apsaugotos
+</span></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://kings.lt/library/sweetalert/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="https://kings.lt/new/js/main.js"></script>
+
+</body>
+</html>

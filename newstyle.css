@@ -1,0 +1,792 @@
+@charset "UTF-8";
+.small_line {
+  display: inline-block;
+  position: relative; }
+.small_line:before {
+  height: 3px;
+  position: absolute;
+  width: 20px;
+  border-radius: 4px;
+  background: #6AADDB;
+  content: '';
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: -20px; }
+
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: url("fonts/MyriadPro-Bold.eot");
+  src: local("☺"), url("fonts/MyriadPro-Bold.woff") format("woff"), url("fonts/MyriadPro-Bold.ttf") format("truetype"), url("fonts/MyriadPro-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*========================== */
+section.schedule .math, section.schedule .eng {
+  font-family: 'MyriadPro-Bold'; }
+
+section.schedule .outer {
+  max-width: 420px; }
+
+section.schedule {
+  font-family: 'MyriadPro-Bold' !important;
+  color: #6AADDB;
+  font-weight: bold;
+  font-size: 24pt;
+  padding-bottom: 50px; }
+section.schedule .container {
+  max-width: 900px; }
+section.schedule .stage_opimpiada {
+  margin-top: 35px;
+  color: #558FBF;
+  font-size: 18px;
+  margin-left: 20px;
+  max-width: 369px;
+  font-family: 'MyriadPro-Bold'; }
+section.schedule .stage_opimpiada:last-child {
+  margin-top: 25px; }
+section.schedule .stage_opimpiada.line_bottom {
+  margin-bottom: 34px; }
+section.schedule .stage_opimpiada.line_bottom .li_ball:after {
+  height: 69px;
+  width: 3px;
+  position: absolute;
+  content: '';
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: -106px;
+  background: #6AADDB;}
+section.schedule .stage_opimpiada span {
+  text-align: center;
+  font-family: 'MyriadPro-Bold';
+  margin-left: 20px;
+  display: inline-block;
+  line-height: 23px; }
+section.schedule .stage_opimpiada span.box {
+  border: 1px solid #6AADDB;
+  font-size: 11pt;
+  padding: 5px;
+  width: 152px;
+  height: 186px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border-radius: 4px;
+  font-family: 'MyriadPro-Bold'; }
+section.schedule .stage_opimpiada span.box span {
+  margin-left: 0px; }
+section.schedule .stage_opimpiada span.box div {
+  font-size: 18pt; }
+section.schedule .stage_opimpiada div {
+  text-align: center;
+  line-height: 23px; }
+section.schedule .stage_opimpiada div.st {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'MyriadPro-Bold'; }
+section.schedule .stage_opimpiada .li_ball {
+  height: 44px;
+  width: 44px;
+  border: 3px solid #6AADDB;
+  position: relative;
+  border-radius: 50px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+section.schedule .stage_opimpiada .li_ball:before {
+  height: 3px;
+  width: 22px;
+  position: absolute;
+  content: '';
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: -36px;
+  background: #6AADDB;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
+section.schedule ul.prep_test {
+  margin-left: 20px;
+  max-width: 420px; }
+section.schedule ul.prep_test li {
+  font-size: 11pt;
+  position: relative;
+  margin-top: 6px;
+  font-family: 'MyriadPro-Bold'; }
+section.schedule ul.prep_test li:last-child .li_ball:after {
+  height: 44px;
+  bottom: -69px; }
+section.schedule ul.prep_test li span {
+  display: inline-block;
+  border: 1px solid #6AADDB;
+  padding: 0px 7px;
+  -ms-grid-column-align: end;
+  justify-self: end;
+  width: 149px;
+  border-radius: 4px;
+  font-family: 'MyriadPro-Bold';
+  font-size: 11pt;
+  line-height: 27px;
+  float: right; }
+section.schedule ul.prep_test li .li_ball {
+  border-radius: 50px;
+  border: 3px solid #6AADDB;
+  width: 13px;
+  height: 13px;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+section.schedule ul.prep_test li .li_ball.long:after {
+  height: 111px;
+  bottom: -169px; }
+section.schedule ul.prep_test li .li_ball:before {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 7px;
+  right: -12px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #6AADDB;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+section.schedule ul.prep_test li .li_ball:after {
+  position: absolute;
+  content: '';
+  height: 23px;
+  width: 3px;
+  left: 50%;
+  /* border-bottom-right-radius: 4px; */
+  /* border-top-right-radius: 4px; */
+  background: #6AADDB;
+  bottom: -37px;
+  -webkit-transform: translate(-44%, -50%);
+  -ms-transform: translate(-44%, -50%);
+  transform: translate(-44%, -50%); }
+
+/*========================== */
+section.resultats .foot > div {
+  height: 42px; }
+section.resultats .foot > div.left {
+  background: #558FBF;
+  color: #fff;
+  font-family: 'MyriadPro-Bold';
+  font-size: 18px; }
+section.resultats .foot > div.right {
+  background: #6AADDB;
+  color: #fff;
+  font-family: 'MyriadPro-Bold'; }
+section.resultats .foot > div.right span {
+  line-height: 17px;
+  font-family: 'MyriadPro-Bold'; }
+section.resultats .foot > div.right span #stk {
+  font-size: 14px;
+  color: #636060;
+  font-family: 'MyriadPro-Bold'; }
+
+section.resultats .hedaer_tab span {
+  line-height: 32px; }
+
+section.resultats .autherb {
+  margin-bottom: 25px; }
+section.resultats .diplom {
+  background: url(images/bgx.png);
+  background-position: center;
+  background-size: cover; }
+section.resultats .x_block {
+  height: 110px;
+  background: #C1272D;
+}
+section.resultats .x_block .auther {
+  width: 90%;
+  /* margin-top: 20PX; */
+  MARGIN-BOTTOM: 3PX;
+  /* HEIGHT: 73PX; */
+}
+section.resultats .x_block .code {
+  margin-top: 5%;
+  font-size: 14px;
+  color: #fff;
+  font-family: 'MyriadPro-Bold'; }
+section.resultats .x_block div {
+  text-align: center;
+  font-family: 'MyriadPro-Bold';
+  color: #fff; }
+section.resultats .x_block div.balance {
+  margin-top: 5%;
+  line-height: 20px; }
+section.resultats .x_block div.balance span {
+  font-size: 25px;
+  font-family: 'MyriadPro-Bold'; }
+section.resultats .x_block div.Apmo {
+  background: #E0A027;
+  color: #fff;
+  font-family: 'MyriadPro-Bold';
+  padding: 14px 18px; }
+section.resultats .left_head {
+  height: 90px;
+  background: #C7E7F9; }
+section.resultats .left_head .wight {
+  font-family: 'MyriadPro-Bold';
+  background: #fff;
+  height: 56px;
+  width: 90%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #d6dfe8;
+  padding-left: 50px; }
+section.resultats .left_head .wight span {
+  height: 100%;
+  line-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #E0A027;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  font-family: 'MyriadPro-Bold'; }
+section.resultats .hedaer_tab {
+  color: #558FBF;
+  background: #C7E7F9;
+  height: 90px;
+  padding-right: 30px;
+  padding-left: 30px; }
+section.resultats .hedaer_tab span {
+  font-size: 15pt;
+  font-weight: bold;
+  margin-left: 15px; }
+section.resultats table thead {
+  background: #558FBF;
+  color: #fff;
+  text-align: center;
+  font-size: 14pt; }
+section.resultats table thead th {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  font-family: 'MyriadPro-Bold';
+  font-size: 14px;
+  vertical-align: middle; }
+section.resultats table tbody tr {
+  border-bottom: 5px solid #558FBF;
+  text-align: center;
+  color: #558FBF;
+  font-family: 'MyriadPro-Bold';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px; }
+section.resultats table tbody td {
+  padding: 0.30rem; }
+section.resultats .tab-content > .active {
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.mytabsb .nav-tabs .nav-item {
+  margin-left: 7px;
+  background: transparent; }
+.mytabsb .controlers ul li {
+  font-size: 14px; }
+
+.my_tabs {
+  position: relative; }
+.my_tabs .x12 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.mytabsb .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  color: #000;
+  padding: 0px 15px; }
+.mytabsb ul.nav {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+.mytabsb .nav.nav-tabs .nav-link.active {
+  background-color: #c8e6fb;
+  position: relative;
+  padding: 11px 15px;
+  z-index: 0;
+  bottom: 10px;
+  border: #c8e6fb; }
+
+section.schedule.ACHIEVEMENTS .tab-content > .active {
+  padding-top: 0px; }
+section.schedule.ACHIEVEMENTS div.tab-content {
+  max-width: 972px;
+  margin: auto;
+  height: 632px;
+  overflow: hidden; }
+section.schedule.ACHIEVEMENTS .stage_opimpiada .li_ball:before {
+  right: -35px; }
+section.schedule.ACHIEVEMENTS ul.prep_test li .li_ball:after {
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+section.schedule.ACHIEVEMENTS .li_ball {
+  left: -1px; }
+section.schedule.ACHIEVEMENTS .stage_opimpiada.line_bottom .li_ball:after {
+  -webkit-transform: translate(-113%, -50%);
+  -ms-transform: translate(-113%, -50%);
+  transform: translate(-113%, -50%); }
+section.schedule.ACHIEVEMENTS .stage_opimpiada {
+  max-width: 400px !important; }
+section.schedule.ACHIEVEMENTS .tab-content > .active {
+  background: transparent !important;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+section.schedule.ACHIEVEMENTS .outer {
+  max-width: 420px; }
+section.schedule.ACHIEVEMENTS ul.prep_test li span {
+  width: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+section.schedule.ACHIEVEMENTS ul.prep_test {
+  max-width: 400px; }
+
+.comming {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important; }
+
+.mytabsb .nav-link.active {
+  background-color: #6AADDB !important;
+  color: #fff !important; }
+.mytabsb ul.nav.nav-tabs {
+  max-width: 1140px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap; }
+.mytabsb ul.nav.nav-tabs li a {
+  color: #6AADDB;
+  font-family: 'MyriadPro-Bold';
+  font-size: 17px;
+  border: 1px solid #6AADDB;
+  border-radius: 0; }
+
+.stage_opimpiada_last {
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: start !important; }
+
+.last_boxb {
+  display: inline-block;
+  height: 100px;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important; }
+.last_boxb div {
+  border: 1px solid #6AADDB;
+  width: 210px;
+  text-align: center;
+  line-height: 23px;
+  border-radius: 4px;
+  padding: 2px;
+  -webkit-transform: translateX(4px);
+  -ms-transform: translateX(4px);
+  transform: translateX(4px); }
+
+.opacity04 {
+  opacity: 0.4; }
+
+.btntogleopas {
+  width: 44px;
+  height: 23px;
+  padding: 2px;
+  background: #6AADDB;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer; }
+.btntogleopas span {
+  height: 17px;
+  line-height: 23px;
+  width: 17px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 70px; }
+
+.flex_direction {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+
+.opshnger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+.opshnger span {
+  font-size: 14pt;
+  font-family: 'MyriadPro-Bold';
+  color: #ccc; }
+.opshnger span.active {
+  color: #004487; }
+
+.container.fff {
+  max-width: 1076px !important; }
+
+.runking {
+  min-height: 600px;
+  margin-bottom: 50px;
+  margin-top: 100px; }
+.runking .smpading {
+  padding-left: 9px;
+  padding-right: 9px; }
+.runking table tbody td {
+  color: #558FBF;
+  font-size: 13pt;
+  padding: 3px 0.75rem;
+  font-family: 'MyriadPro';
+  font-weight: normal; }
+.runking table tbody td div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: #7AC943;
+  display: inline-block;
+  margin-right: 10px; }
+.runking table tbody tr {
+  border-bottom: 1px solid #c7e7f9; }
+.runking table tbody tr:nth-child(1) td:last-child {
+  background: #EBC275; }
+.runking table tbody tr:nth-child(2) td:last-child {
+  background: #F3D9A9; }
+.runking table tbody tr:nth-child(3) td:last-child {
+  background: #FAF0DD; }
+.runking table tbody tr td:last-child {
+  font-size: 16pt; }
+.runking table thead {
+  background: #c7e7f9;
+  color: #004487; }
+.runking table thead th {
+  font-family: 'MyriadPro-Bold';
+  padding: 30px 0.75rem; }
+.runking .tab-content > .active {
+  display: block;
+  background: #efebeb;
+  border-radius: 10px;
+  padding-top: 0px;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+  padding-left: 9px;
+  padding-right: 9px; }
+.runking div.tab-content {
+  max-width: 1150px; }
+.runking .nav-tabs .nav-item {
+  margin-left: 4px; }
+.runking ul.nav.nav-tabs {
+  max-width: 1150px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px; }
+.runking ul.nav.nav-tabs li:first-child {
+  margin-left: 0px; }
+.runking .nav-item {
+  background: transparent;
+  border: 1px solid #6AADDB;
+  -webkit-transform: translateY(14px);
+  -ms-transform: translateY(14px);
+  transform: translateY(14px); }
+.runking .nav-item a {
+  padding: 0 20px;
+  color: #558FBF;
+  font-family: 'MyriadPro-Bold'; }
+.runking .nav-item select {
+  width: 90%;
+  border: none;
+  font-size: 14px;
+  color: #504949;
+  height: 26px;
+}
+.runking .nav-item select:focus {
+  outline: none; }
+.runking .nav-item select option {
+  color: #ccc; }
+.runking .nav-tabs {
+  height: 30px; }
+.runking .nav.nav-tabs .nav-link.active {
+  padding: 0px 2px 12px;
+  bottom: 19px;
+  background: #C7E7F9;
+  -webkit-transform: scaleX(1.02);
+  -ms-transform: scaleX(1.02);
+  transform: scaleX(1.02);
+  color: #558FBF;
+  font-family: 'MyriadPro-Bold'; }
+
+li.greyccc {
+  color: #ccc !important; }
+li.greyccc .li_ball {
+  border-color: #ccc !important; }
+li.greyccc .li_ball:before {
+  background: #ccc !important; }
+
+/*========================== */
+@media only screen and (max-width: 1000px) {
+  .runking .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    /* color: #000; */
+    /* padding: 3px 15px; */
+    padding-top: 8px !important;
+    font-size: 12px !important;
+    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 4px; } }
+@media only screen and (max-width: 991px) {
+  .schedule.ACHIEVEMENTS .outer {
+    margin: auto; }
+
+  section.schedule.ACHIEVEMENTS div.tab-content {
+    height: 1174px; } }
+@media only screen and (max-width: 670px) {
+  section.resultats .x_block div.balance {
+    line-height: 15px;
+    font-size: 13px; }
+
+  section.resultats .x_block div.Apmo {
+    padding: 9px 5px; }
+
+  section.resultats .foot > div.left {
+    font-size: 12px; }
+
+  section.resultats .foot > div.right span {
+    line-height: 13px;
+    font-size: 12px; }
+
+  section.schedule.ACHIEVEMENTS ul.prep_test li span {
+    width: 139px;
+    font-size: 11px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+  .last_boxb div {
+    border: 1px solid #6AADDB;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 4px;
+    padding: 2px;
+    -webkit-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    transform: translateX(4px); } }
+@media only screen and (max-width: 770px) {
+
+  .mytabsb ul.nav.nav-tabs li a {
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px; }
+
+  section.schedule .outer {
+    max-width: 363px;
+    margin: auto;
+    float: unset !important; }
+
+  section.schedule .stage_opimpiada span.box {
+    font-size: 11pt;
+    margin-left: 0px;
+  }
+
+  section.schedule .stage_opimpiada span.box div {
+    font-size: 13pt; }
+
+  section.schedule .outer {
+    margin-bottom: 20px; }
+
+  .small_line:before {
+    display: none; }
+
+  section.schedule .stage_opimpiada.line_bottom .li_ball:after {
+    height: 98px;
+
+    bottom: -149px;
+
+  }
+
+  section.schedule ul.prep_test li span {
+
+    width: 130px;
+
+  }
+
+  section.schedule .stage_opimpiada span.box {
+
+    height: 174px;
+
+  }
+  section.schedule .stage_opimpiada div.st {
+
+    height: 91px;
+  }
+
+}
+@media only screen and (max-width: 520px) {
+  section.schedule .stage_opimpiada.line_bottom .li_ball:after {
+    left: 53%; }
+
+  .mytabsb ul.nav.nav-tabs {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+
+  .mytabsb .nav-tabs .nav-item {
+    margin-bottom: 20px; }
+
+  .mytabsb .nav.nav-tabs .nav-link.active {
+    background-color: #c8e6fb;
+    position: relative;
+    padding: 11px 6px;
+    z-index: 0;
+    bottom: 10px;
+    border: #c8e6fb; }
+  section.schedule ul.prep_test li .li_ball:after {
+    position: absolute;
+    content: '';
+    height: 37px;
+    width: 3px;
+    left: 50%;
+    /* border-bottom-right-radius: 4px; */
+    /* border-top-right-radius: 4px; */
+    background: #6AADDB;
+    bottom: -57px;
+    -webkit-transform: translate(-44%, -50%);
+    -ms-transform: translate(-44%, -50%);
+    transform: translate(-44%, -50%);
+  }
+  section.schedule .stage_opimpiada {
+    margin-top: 30px;
+  }
+
+
+  section.schedule .stage_opimpiada.line_bottom .li_ball:after {
+    height: 98px;
+
+    bottom: -149px;
+
+  }
+
+  section.schedule ul.prep_test li span {
+
+    width: 200px;
+
+  }
+
+  section.schedule .stage_opimpiada span.box {
+
+    height: 174px;
+
+  }
+  section.schedule .stage_opimpiada div.st {
+
+    height: 91px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .last_boxb div {
+    width: 150px; }
+
+  section.schedule.ACHIEVEMENTS .stage_opimpiada {
+    max-width: 374px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important; }
+
+  .last_boxb div {
+    width: 127px; } }
+
+.resultbtn{
+  height: 100%;
+  line-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #E0A027;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  font-family: 'MyriadPro-Bold';
+  border: none;
+}
+.resultinput{
+  width: 73%;
+  border: none;
+}
+.resultinput:focus{
+
+  outline: none;
+}
+.ragacbtn{
+  background: #E0A027;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-family: 'MyriadPro-Bold';
+  padding: 9px 50px;
+}
+
+.uppercase{
+  text-transform:uppercase !important;
+}
